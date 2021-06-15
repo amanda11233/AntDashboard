@@ -1,0 +1,3 @@
+include ':AAR'
+include ':app'
+rootProject.name = "AntDashboard"

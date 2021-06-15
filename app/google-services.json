@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "742462228409",
+    "firebase_url": "https://vehicledashboard-62f53-default-rtdb.firebaseio.com",
+    "project_id": "vehicledashboard-62f53",
+    "storage_bucket": "vehicledashboard-62f53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742462228409:android:b780c5d9ddae6e74fd5868",
+        "android_client_info": {
+          "package_name": "com.example.antdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyX4D3pQcZDB4hn6hthfjD8Onnzd6lV6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742462228409:android:eebcc95d53ca509efd5868",
+        "android_client_info": {
+          "package_name": "com.example.gokartdashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyX4D3pQcZDB4hn6hthfjD8Onnzd6lV6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742462228409:android:9ff1e691d96a04b8fd5868",
+        "android_client_info": {
+          "package_name": "com.example.vehicledashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyX4D3pQcZDB4hn6hthfjD8Onnzd6lV6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742462228409:android:96d6b81e3ac54eabfd5868",
+        "android_client_info": {
+          "package_name": "com.example.vehicledashboardwatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyX4D3pQcZDB4hn6hthfjD8Onnzd6lV6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742462228409-42lp0imri85rnlabl7i21ij5p4kqmslk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

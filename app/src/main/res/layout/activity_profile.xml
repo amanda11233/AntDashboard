@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_profile"
+            android:layout_margin="20dp"
+            android:id="@+id/avatarimg"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Amanda Raj Shrestha"
+            android:layout_toRightOf="@+id/avatarimg"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:id="@+id/fullnametxt"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullnametxt"
+            android:text="amanda@gmail.com"
+            android:layout_toRightOf="@+id/avatarimg"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/emailtxt"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9808438993"
+            android:layout_below="@+id/emailtxt"
+            android:layout_toRightOf="@+id/avatarimg"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/contacttxt"
+            />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Activity"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:id="@+id/titletxt"
+            android:textSize="40dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/titletxt"
+            android:layout_centerHorizontal="true">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/distancelay"
+
+                android:padding="30dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Distance Traveled"
+                    android:textColor="@color/black"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/distancetxt"
+
+                    android:text="0 KM"
+                    android:textSize="20dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/speedlay"
+                android:layout_toRightOf="@+id/distancelay"
+                android:layout_below="@+id/titletxt"
+                android:padding="30dp"
+                android:layout_marginLeft="40dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Average Speed"
+                    android:textColor="@color/black"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 Km/hr"
+                    android:id="@+id/speedtxt"
+                    android:textSize="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutbtn"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:text="Logout"
+            android:backgroundTint="#ff5b60"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
